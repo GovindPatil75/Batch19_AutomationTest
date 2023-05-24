@@ -6,12 +6,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import Utility.Library;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test_1 {
 	
 	@Test
-	public void verifyTest_1() {
+	public void verifyTest_1() throws Exception {
 		
 		
 		//ChromeOptions option=new ChromeOptions();
@@ -40,6 +41,8 @@ public class Test_1 {
 		System.out.println("Test case step 40");
 		System.out.println("Test case step 41");
 		System.out.println("Test case step 42");
+		
+		Library.getScreenShot(driver);
 		
 	}
 }
