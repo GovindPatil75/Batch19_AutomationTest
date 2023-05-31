@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import Utility.Library;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AlertTest {
@@ -26,20 +27,25 @@ public class AlertTest {
 		btn_submit.click();
 		
 		//Alert Handle
-		Alert alt =driver.switchTo().alert();
+		//Alert alt =driver.switchTo().alert();
 		
-		System.out.println(alt.getText());
+		Library.HandleAlert(driver).getText();
+		Library.HandleAlert(driver).accept();
+		Library.HandleAlert(driver).dismiss();
 		
-		Thread.sleep(2000); // 2 sec
-		//alt.dismiss(); // click cancel button 
 		
-		alt.accept(); // click Ok button
-		
-		Thread.sleep(2000); // 2 sec
-		System.out.println(alt.getText());
-		
-		Thread.sleep(2000); // 2 sec
-		alt.accept(); // click OK button
+//		System.out.println(alt.getText());
+//		
+//		Thread.sleep(2000); // 2 sec
+//		//alt.dismiss(); // click cancel button 
+//		
+//		alt.accept(); // click Ok button
+//		
+//		Thread.sleep(2000); // 2 sec
+//		System.out.println(alt.getText());
+//		
+//		Thread.sleep(2000); // 2 sec
+//		alt.accept(); // click OK button
 		
 	}
 

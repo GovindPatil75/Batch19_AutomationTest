@@ -7,6 +7,7 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -60,4 +61,12 @@ public class Library {
 		int c=a+b+d;
 		return c;
 	}
+   public static Alert HandleAlert(WebDriver driver) {
+	   
+	   return driver.switchTo().alert();
+   }
+   
+   
+   
+   
 }
