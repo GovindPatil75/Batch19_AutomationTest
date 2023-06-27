@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-27T01:03:38 IST" name="Default suite" finished-at="2023-06-27T01:03:38 IST" duration-ms="53">
+  <suite started-at="2023-06-27T10:29:38 IST" name="Default suite" finished-at="2023-06-27T10:29:38 IST" duration-ms="120">
     <groups>
     </groups>
-    <test started-at="2023-06-27T01:03:38 IST" name="Default test" finished-at="2023-06-27T01:03:38 IST" duration-ms="53">
-      <class name="Utility.Test_6_try">
-        <test-method signature="Try()[pri:0, instance:Utility.Test_6_try@51399530]" started-at="2023-06-27T01:03:38 IST" name="Try" finished-at="2023-06-27T01:03:38 IST" duration-ms="10" status="PASS">
+    <test started-at="2023-06-27T10:29:38 IST" name="Default test" finished-at="2023-06-27T10:29:38 IST" duration-ms="120">
+      <class name="Utility.Test_D">
+        <test-method signature="testing()[pri:0, instance:Utility.Test_D@169e6180]" started-at="2023-06-27T10:29:38 IST" name="testing" finished-at="2023-06-27T10:29:38 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Try -->
-      </class> <!-- Utility.Test_6_try -->
+        </test-method> <!-- testing -->
+      </class> <!-- Utility.Test_D -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
