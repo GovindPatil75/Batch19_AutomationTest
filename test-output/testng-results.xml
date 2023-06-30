@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2023-06-28T20:16:03 IST" name="Default suite" finished-at="2023-06-28T20:16:03 IST" duration-ms="79">
+  <suite started-at="2023-06-30T19:39:36 IST" name="Default suite" finished-at="2023-06-30T19:39:36 IST" duration-ms="301">
     <groups>
     </groups>
-    <test started-at="2023-06-28T20:16:03 IST" name="Default test" finished-at="2023-06-28T20:16:03 IST" duration-ms="79">
-      <class name="Utility.Test_RD">
-        <test-method signature="verify()[pri:0, instance:Utility.Test_RD@397fbdb]" started-at="2023-06-28T20:16:03 IST" name="verify" finished-at="2023-06-28T20:16:03 IST" duration-ms="21" status="PASS">
+    <test started-at="2023-06-30T19:39:36 IST" name="Default test" finished-at="2023-06-30T19:39:36 IST" duration-ms="301">
+      <class name="Utility.Test_v">
+        <test-method signature="m2()[pri:0, instance:Utility.Test_v@515c6049]" started-at="2023-06-30T19:39:36 IST" name="m2" finished-at="2023-06-30T19:39:36 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify -->
-      </class> <!-- Utility.Test_RD -->
-=======
-  <suite started-at="2023-06-28T20:38:29 IST" name="Default suite" finished-at="2023-06-28T20:38:29 IST" duration-ms="57">
-    <groups>
-    </groups>
-    <test started-at="2023-06-28T20:38:29 IST" name="Default test" finished-at="2023-06-28T20:38:29 IST" duration-ms="57">
-      <class name="Utility.Test_LD">
-        <test-method signature="Verity_TestLD()[pri:0, instance:Utility.Test_LD@51399530]" started-at="2023-06-28T20:38:29 IST" name="Verity_TestLD" finished-at="2023-06-28T20:38:29 IST" duration-ms="11" status="PASS">
+        </test-method> <!-- m2 -->
+        <test-method signature="verifylogin()[pri:0, instance:Utility.Test_v@515c6049]" started-at="2023-06-30T19:39:36 IST" name="verifylogin" finished-at="2023-06-30T19:39:36 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verity_TestLD -->
-      </class> <!-- Utility.Test_LD -->
->>>>>>> 3cbf700d31618dccede2e1ae249f67e90dabfb73
+        </test-method> <!-- verifylogin -->
+      </class> <!-- Utility.Test_v -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
