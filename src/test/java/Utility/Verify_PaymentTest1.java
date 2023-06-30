@@ -2,7 +2,7 @@ package Utility;
 
 import org.testng.annotations.Test;
 
-public class Verify_PaymentTest {
+public class Verify_PaymentTest1 {
 
 	
 		@Test
