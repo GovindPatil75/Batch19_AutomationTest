@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2023-06-28T20:16:03 IST" name="Default suite" finished-at="2023-06-28T20:16:03 IST" duration-ms="79">
+  <suite started-at="2023-06-30T20:08:28 IST" name="Default suite" finished-at="2023-06-30T20:08:28 IST" duration-ms="127">
     <groups>
     </groups>
-    <test started-at="2023-06-28T20:16:03 IST" name="Default test" finished-at="2023-06-28T20:16:03 IST" duration-ms="79">
-      <class name="Utility.Test_RD">
-        <test-method signature="verify()[pri:0, instance:Utility.Test_RD@397fbdb]" started-at="2023-06-28T20:16:03 IST" name="verify" finished-at="2023-06-28T20:16:03 IST" duration-ms="21" status="PASS">
+    <test started-at="2023-06-30T20:08:28 IST" name="Default test" finished-at="2023-06-30T20:08:28 IST" duration-ms="127">
+      <class name="Utility.Review_Test">
+        <test-method signature="Verify_HomePage()[pri:0, instance:Utility.Review_Test@515c6049]" started-at="2023-06-30T20:08:28 IST" name="Verify_HomePage" finished-at="2023-06-30T20:08:28 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify -->
-      </class> <!-- Utility.Test_RD -->
-=======
-  <suite started-at="2023-06-28T20:38:29 IST" name="Default suite" finished-at="2023-06-28T20:38:29 IST" duration-ms="57">
-    <groups>
-    </groups>
-    <test started-at="2023-06-28T20:38:29 IST" name="Default test" finished-at="2023-06-28T20:38:29 IST" duration-ms="57">
-      <class name="Utility.Test_LD">
-        <test-method signature="Verity_TestLD()[pri:0, instance:Utility.Test_LD@51399530]" started-at="2023-06-28T20:38:29 IST" name="Verity_TestLD" finished-at="2023-06-28T20:38:29 IST" duration-ms="11" status="PASS">
+        </test-method> <!-- Verify_HomePage -->
+        <test-method signature="Verify_Login()[pri:0, instance:Utility.Review_Test@515c6049]" started-at="2023-06-30T20:08:28 IST" name="Verify_Login" finished-at="2023-06-30T20:08:28 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verity_TestLD -->
-      </class> <!-- Utility.Test_LD -->
->>>>>>> 3cbf700d31618dccede2e1ae249f67e90dabfb73
+        </test-method> <!-- Verify_Login -->
+        <test-method signature="Verify_signin()[pri:0, instance:Utility.Review_Test@515c6049]" started-at="2023-06-30T20:08:28 IST" name="Verify_signin" finished-at="2023-06-30T20:08:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_signin -->
+      </class> <!-- Utility.Review_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
