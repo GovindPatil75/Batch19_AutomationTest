@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-30T09:42:30 IST" name="Default suite" finished-at="2023-06-30T09:42:30 IST" duration-ms="50">
+  <suite started-at="2023-07-01T09:58:54 IST" name="Default suite" finished-at="2023-07-01T09:58:54 IST" duration-ms="48">
     <groups>
     </groups>
-    <test started-at="2023-06-30T09:42:30 IST" name="Default test" finished-at="2023-06-30T09:42:30 IST" duration-ms="50">
-      <class name="Utility.Verify_Payment">
-        <test-method signature="VerifyPayment()[pri:0, instance:Utility.Verify_Payment@51399530]" started-at="2023-06-30T09:42:30 IST" name="VerifyPayment" finished-at="2023-06-30T09:42:30 IST" duration-ms="9" status="PASS">
+    <test started-at="2023-07-01T09:58:54 IST" name="Default test" finished-at="2023-07-01T09:58:54 IST" duration-ms="48">
+      <class name="Utility.Test1_login">
+        <test-method signature="Test1()[pri:0, instance:Utility.Test1_login@51399530]" started-at="2023-07-01T09:58:54 IST" name="Test1" finished-at="2023-07-01T09:58:54 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyPayment -->
-      </class> <!-- Utility.Verify_Payment -->
+        </test-method> <!-- Test1 -->
+      </class> <!-- Utility.Test1_login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
